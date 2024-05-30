@@ -10,4 +10,6 @@ This Streamlit app implements an interactive machine learning educational chatbo
 - **Message Processing:** Generates responses from the chatbot based on user prompts and maintains conversation history.
 
 This chatbot enables users to interactively ask questions related to Gaussian Distribution and Linear Regression, providing educational responses based on the provided content and previous interactions.
-## Example of Output
+
+## Example Output Illustrations
+Illustrative examples of output are available in the directory named "output_images".
