@@ -58,7 +58,7 @@ def get_text_chunks(text):
 
 def get_vectorstore(text_chunks):
     embeddings = OpenAIEmbeddings()
-    vectorstore = FAISS.from_texts(texts=text_chunks, embedding=embeddings, distance_strategy = DistanceStrategy.MAX_INNER_PRODUCT)
+    vectorstore = FAISS.from_texts(texts=text_chunks, embedding=embeddings)
     vectorstore.save_local('faiss_vectorstore')
     return vectorstore
 
