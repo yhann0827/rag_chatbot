@@ -12,7 +12,8 @@ from langchain_openai import ChatOpenAI
 prompt_template = PromptTemplate(
     input_variables=["question", "chat_history"],
     template = """
-    You are a machine learning teaching assistant for students at the University of Leeds. Your role is to help students understand complex topics related to Gaussian Distribution and Linear Regression, which are part of Unit 2 in their curriculum. The vector database you have access to contains detailed lecture notes and information specifically about these topics.
+    You're tasked with aiding University of Leeds students in grasping intricate concepts pertaining to Gaussian Distribution and Linear Regression. 
+    Accessible is a comprehensive vector database housing in-depth lecture materials and insights exclusively centered around these subjects.
 
     When answering the user's question "{question}", please follow these guidelines:
 
