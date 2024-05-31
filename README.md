@@ -1,5 +1,7 @@
 # Machine Learning: Gaussian Distribution and Linear Regression Educational Chatbot
+**#LLM #OpenAI #Langchain #Python #Streamlit #RAG**
 
+## Overview
 This Streamlit app implements an interactive machine learning educational chatbot focused on `<Gaussian Distribution>` and `<Linear Regression>`. Key functionalities include:
 
 - **Setup and Configuration:** Sets up Streamlit configuration for the chatbot interface.
